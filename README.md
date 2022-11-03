@@ -50,10 +50,11 @@ Your main folder is the one that contains all the common and shared code between
 ## Get the flavor at runtime
 You can check direct with flavor and your config name in everwhere, BuildConfig has already BuildType
 
-![Accessing  BuildConfig Fields and Flavours](https://user-images.githubusercontent.com/58541387/199715175-8907f8cd-3831-499f-a9a5-460829e11be7.png)
-
 ```
 if(BuildConfig.BUILD_TYPE == "release"){// TODO}
 else if(BuildConfig.BUILD_TYPE == "staging"){ //TODO }
 else if(BuildConfig.BUILD_TYPE == "debug"){ //TODO }
 ```
+
+![Accessing  BuildConfig Fields and Flavours](https://user-images.githubusercontent.com/58541387/199715175-8907f8cd-3831-499f-a9a5-460829e11be7.png)
+
