@@ -1,0 +1,4 @@
+<resources>
+    <!-- <string name="app_name">Product Flavours</string>-->
+    <!--app name dynamically created from selecting flavour and build variant-->
+</resources>
