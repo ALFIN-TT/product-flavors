@@ -47,10 +47,12 @@ Select ```Build > Select Build Variant``` in the menu bar, and you will see the 
 ## Structuring your Flavors
 Your main folder is the one that contains all the common and shared code between flavors, you can create flavor specific code and files by creating different source set for each flavor ```MyProject/app/src/main```
 
+
 ![Add multiple google-services json files based on the flavour](https://user-images.githubusercontent.com/58541387/199712077-b8be7639-0bdc-4d36-996a-e8b3606988a6.png)
 
 ## Get the flavor at runtime
 You can check direct with flavor and your config name in everwhere, BuildConfig has already BuildType
+
 
 ```
 if(BuildConfig.BUILD_TYPE == "release"){// TODO}
@@ -60,8 +62,10 @@ else if(BuildConfig.BUILD_TYPE == "debug"){ //TODO }
 
 ![Accessing  BuildConfig Fields and Flavours](https://user-images.githubusercontent.com/58541387/199715175-8907f8cd-3831-499f-a9a5-460829e11be7.png)
 
+
 ## Build apk/aab
-To build ```ap```k or ```appbundle``` for each flavor you can select from this popup
+To build ```apk``` or ```appbundle``` for each flavor you can select from this popup
+
 
 
 ![Build apk choosing flavour and build varient](https://user-images.githubusercontent.com/58541387/199719400-64da0cf1-bde0-45fd-bd9e-8788bfb19eb6.png)
