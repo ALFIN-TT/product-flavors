@@ -39,5 +39,11 @@ The below example has 3 product flavors added with each having its own ```applic
     }
 ```
 Select Build > Select Build Variant in the menu bar, and you will see the different Build Variants auto-generated when you added the Product flavors.
+
 ![Select Build variant and product flavour](https://user-images.githubusercontent.com/58541387/199710606-4f092a25-93e7-474d-b4de-944b006f37d8.png)
+
+## Structuring your Flavors
+Your main folder is the one that contains all the common and shared code between flavors, you can create flavor specific code by creating different source set for each flavor MyProject/app/src/main
+
+![Add multiple google-services json files based on the flavour](https://user-images.githubusercontent.com/58541387/199712077-b8be7639-0bdc-4d36-996a-e8b3606988a6.png)
 
