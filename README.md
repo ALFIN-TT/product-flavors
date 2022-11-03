@@ -38,3 +38,5 @@ The below example has 3 product flavors added with each having its own ```applic
         }
     }
 ```
+Select Build > Select Build Variant in the menu bar, and you will see the different Build Variants auto-generated when you added the Product flavors.
+![Build apk choosing flavour and build varient](https://user-images.githubusercontent.com/58541387/199710469-ea6992c6-a24c-4562-bcf0-3d2698bb4702.png)
