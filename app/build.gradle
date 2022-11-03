@@ -35,11 +35,11 @@ android {
     def FIELD_NAME_BUILD_CONFIG_FIELD = "BUILD_CONFIG_FIELD"
     def FIELD_NAME_BASE_URL = "FIELD_NAME_BASE_URL"
 
-    flavorDimensions 'flavours'
+    flavorDimensions 'flavors'
     productFlavors {
         flavor1 {
-            dimension 'flavours'
-            applicationId 'com.example.productflavours1'
+            dimension 'flavors'
+            applicationId 'com.example.productflavors1'
             versionCode 1
             versionName '1.0.0'
             signingConfig signingConfigs.signKey1Config//specify sign key here
@@ -48,16 +48,16 @@ android {
         }
 
         flavor2 {
-            dimension 'flavours'
-            applicationId 'com.example.productflavours2'
+            dimension 'flavors'
+            applicationId 'com.example.productflavors2'
             versionCode 1
             versionName '1.0.0'
             signingConfig signingConfigs.signKey2Config//specify sign key here
         }
 
         flavor3 {
-            dimension 'flavours'
-            applicationId 'com.example.productflavours3'
+            dimension 'flavors'
+            applicationId 'com.example.productflavors3'
             versionCode 1
             versionName '1.0.0'
             signingConfig signingConfigs.debug//specify sign key here.
@@ -89,7 +89,7 @@ android {
 
     applicationVariants.all { variant ->
 
-        //create build config field based on flavour and build variant.
+        //create build config field based on flavor and build variant.
         if (variant.getName() == "flavor1Debug") {
             variant.buildConfigField "String", FIELD_NAME_BASE_URL, "\"https://your_base_url\""
         } else if (variant.getName() == "flavor2Staging") {
