@@ -5,4 +5,4 @@ Demo app for add multiple product flavours
 
 
 ## Setting Up Product Flavors
-Open up your build.gradle file in the app module and add your flavors inside the android section.
+Open up your ```build.gradle``` file in the app module and add your flavors inside the android section.
