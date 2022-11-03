@@ -58,3 +58,5 @@ else if(BuildConfig.BUILD_TYPE == "debug"){ //TODO }
 
 ![Accessing  BuildConfig Fields and Flavours](https://user-images.githubusercontent.com/58541387/199715175-8907f8cd-3831-499f-a9a5-460829e11be7.png)
 
+### To build apk or aab for each flavor you can use
+![Select Build variant and product flavour](https://user-images.githubusercontent.com/58541387/199719276-7561ffc0-c177-4abe-9a0e-e5ae2e2dfa19.png)
