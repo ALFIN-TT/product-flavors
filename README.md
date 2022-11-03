@@ -54,8 +54,6 @@ You can check direct with flavor and your config name in everwhere, BuildConfig 
 
 ```
 if(BuildConfig.BUILD_TYPE == "release"){// TODO}
-
-if(BuildConfig.BUILD_TYPE == "staging"){ //TODO }
-
-if(BuildConfig.BUILD_TYPE == "debug"){ //TODO }
+else if(BuildConfig.BUILD_TYPE == "staging"){ //TODO }
+else if(BuildConfig.BUILD_TYPE == "debug"){ //TODO }
 ```
