@@ -39,6 +39,30 @@ The below example has 3 product flavors added with each having its own ```applic
         }
     }
 ```
+
+configure signingConfig 
+
+```
+ signingConfigs {
+        //define multiple sign keys here
+        signKey1Config {
+            storeFile file('your_key_1.jks')
+            keyAlias 'your_key_1'
+            keyPassword 'your_key_1_pswd'
+            storePassword 'your_key_1_pswd'
+        }
+
+        signKey2Config {
+            storeFile file('your_key_2.jks')
+            keyAlias 'your_key_2'
+            keyPassword 'your_key_2_pswd'
+            storePassword 'your_key_2_pswd'
+        }
+    }
+```
+
+
+## Build Variant
 Select ```Build > Select Build Variant``` in the menu bar, and you will see the different Build Variants auto-generated when you added the Product flavors.
 
 
