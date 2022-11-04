@@ -10,10 +10,10 @@ The below example has 3 product flavors added with each having its own ```applic
 
 
 ```
- flavorDimensions 'flavours'
+ flavorDimensions 'flavors'
     productFlavors {
         flavor1 {
-            dimension 'flavours'
+            dimension 'flavors'
             applicationId 'com.example.productflavours1'
             versionCode 1
             versionName '1.0.0'
@@ -23,7 +23,7 @@ The below example has 3 product flavors added with each having its own ```applic
         }
 
         flavor2 {
-            dimension 'flavours'
+            dimension 'flavors'
             applicationId 'com.example.productflavours2'
             versionCode 1
             versionName '1.0.0'
@@ -31,7 +31,7 @@ The below example has 3 product flavors added with each having its own ```applic
         }
 
         flavor3 {
-            dimension 'flavours'
+            dimension 'flavors'
             applicationId 'com.example.productflavours3'
             versionCode 1
             versionName '1.0.0'
